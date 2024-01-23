@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.search form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  background-image: url(images/pexels-pixabay-531767.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+form input {
+  padding: 15px 50px;
+  margin-top: 30px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+}
+form button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  transition: 0.2s;
+  color: #529ace;
+}
+form button:hover {
+  transform: scale(1.1);
+}
+.display {
+  text-align: center;
+  margin-top: 70px;
+}
+.temp {
+  font-size: 50px;
+  color: white;
+}
+.time_location {
+  color: white;
+  font-size: 20px;
+}
+.condition {
+  color: white;
+  margin-top: 10px;
+}
